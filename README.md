@@ -1,6 +1,12 @@
 # QUAAD
 quad 4-step Eurorack CV sequencer
 
+current version:
+
+PCB     V1.1
+
+Panel   V1.1
+
 **Features**
 
 This module is basically 4 independent 4-step sequencers. Each of them features a CV output (0-5V), a clock divider potentiometer and output (1-2-3-4-5-7-8-12-16-32 divisions) and a pattern setting.
