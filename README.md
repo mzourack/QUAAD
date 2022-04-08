@@ -8,7 +8,7 @@ PCB     V1.1
 Panel   V1.1
 
 **Features**
-
+Demo: https://www.youtube.com/watch?v=YCnnyX1JADY
 This module is basically 4 independent 4-step sequencers. Each of them features a CV output (0-5V), a clock divider (1-2-3-4-5-7-8-12-16-32 divisions) and a pattern setting.
 There are 6 patterns available, each one unique, as there are no repeating 4-step sequences between the looped patterns. Patterns can be changed per-sequence via a dedicated knob or via CV, aswell as globally using the MSTR PTRN knob, which basically adds a CV offset to each of the pattern CV inputs. The full range of patterns can be accesed via the pot corresponding to pattern changes of individual sequencers, the MSTR PTRN knob or via 0-5V CV. The patterns are looped, so that when, for example, you are on the last of the 6 patterns and add some positive CV offset, you will go back to the first one and then further on...
 The patterns are determined by this variable in the Arduino code:
