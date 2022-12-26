@@ -37,6 +37,8 @@ Not much to say here, the build is fairly straight forward. It features SMD comp
 
 **Firmware**
 
+Complete step-by-step flashing guide available in the pdf file in this repository.
+
 The Atmega328P is running on Arduino code - this means an Arduino bootloader needs to be flashed before the .ino code. To flash it, you can use an arduino (uno or nano for example) and a couple of jumper wires. I recommend to flash the module disconnected from the rack - the 5V needed to run the chip can be provided via the ICSP header. I used a USBASP from aliexpress, it works great but was quite hard to get working, so I cannot recommend it. If you do go down the USBASP route, note that you need to place a jumper on the programmer that slows down the data transfer frequency - a factory fresh atmega328p won't be able to accept the bootloader at USBASP default speed.
 
 Here's the pinout of the ICSP header used for flashing the chip:
