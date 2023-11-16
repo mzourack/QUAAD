@@ -47,10 +47,6 @@ Here's the pinout of the ICSP header used for flashing the chip:
 
 Finally, TX and RX pins are available on the back of the module. These can theoretically be used to debug the module, and could prove useful for testing new firmware. However, clock div out C and D have to be disabled in such case.
 
-**Disclaimer**
-
-This is a personal project of mine. I am not an electrical engineer, and this is actually the first module I have ever designed. Build and use this module at your own risk!
-
 **License**
 
 Shield: [![CC BY 4.0][cc-by-shield]][cc-by]
